@@ -1,0 +1,19 @@
+<div class="row m-4">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Contador</h5>
+          <p class="card-text">Pulsa en el botón para incrementar el contado:.</p>
+          <a (click)="sumarUno()" class="btn btn-primary">Sumar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mt-4">Has pulsado:</h5>
+          <h1 class="card-text">{{ acumulador }} veces</h1>
+        </div>
+      </div>
+    </div>
+  </div>

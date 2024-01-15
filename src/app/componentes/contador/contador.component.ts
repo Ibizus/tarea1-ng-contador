@@ -15,4 +15,7 @@ export class ContadorComponent {
     this.acumulador = this.acumulador+1;
   }
 
+  reset(){
+    this.acumulador = 0;
+  }
 }
